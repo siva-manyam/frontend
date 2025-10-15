@@ -15,7 +15,8 @@
         "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to your location for family safety tracking.",
         "NSLocationWhenInUseUsageDescription": "This app needs access to your location for family safety tracking.",
         "NSContactsUsageDescription": "This app needs access to your contacts to sync with parent device.",
-        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to sync metadata with parent device."
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to sync metadata with parent device.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -58,6 +59,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1669287f-58e0-49ec-a4f0-7b5499f81ef3"
+      }
     }
   }
 }
