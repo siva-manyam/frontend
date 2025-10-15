@@ -17,6 +17,9 @@
         "NSContactsUsageDescription": "This app needs access to your contacts to sync with parent device.",
         "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to sync metadata with parent device.",
         "ITSAppUsesNonExemptEncryption": false
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
     "android": {
@@ -38,7 +41,12 @@
         "READ_MEDIA_VIDEO",
         "ACCESS_MEDIA_LOCATION"
       ],
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "runtimeVersion": "1.0.0",
+      "statusBar": {
+        "backgroundColor": "#007AFF",
+        "barStyle": "light-content"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -53,7 +61,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#000"
+          "backgroundColor": "#000000"
         }
       ]
     ],
@@ -63,8 +71,12 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1669287f-58e0-49ec-a4f0-7b5499f81ef3"
+        "projectId": "ad9c3ef8-e541-4256-8322-2518cdab5bb4"
       }
+    },
+    "owner": "hacker1921",
+    "updates": {
+      "url": "https://u.expo.dev/ad9c3ef8-e541-4256-8322-2518cdab5bb4"
     }
   }
 }
