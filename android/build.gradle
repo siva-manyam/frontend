@@ -18,6 +18,13 @@ allprojects {
     mavenCentral()
     maven { url 'https://www.jitpack.io' }
   }
+
+  // ✅ Ensure all Kotlin tasks compile for Java 17
+  tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions {
+      jvmTarget = "17"
+    }
+  }
 }
 
 apply plugin: "expo-root-project"
