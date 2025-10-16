@@ -1,4 +1,4 @@
-package com.familysafety.tracker
+package com.hacker1921.familysafetytracker
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

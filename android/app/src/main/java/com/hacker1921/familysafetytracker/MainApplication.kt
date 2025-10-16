@@ -1,4 +1,4 @@
-package com.familysafety.tracker
+package com.hacker1921.familysafetytracker
 
 import android.app.Application
 import android.content.res.Configuration

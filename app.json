@@ -3,6 +3,7 @@
     "name": "Family Safety Tracker",
     "slug": "family-safety-tracker",
     "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
     "extra": {
       "router": {},
       "eas": {
@@ -17,6 +18,12 @@
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
+    },
+    "android": {
+      "package": "com.hacker1921.familysafetytracker"
+    },
+    "ios": {
+      "bundleIdentifier": "com.hacker1921.familysafetytracker"
     }
   }
 }
